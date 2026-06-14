@@ -46,7 +46,7 @@ namespace AboutTab {
         if (openWelcome) {
             ImGui::Text(std::format("Welcome {}to ", State.HasOpenedMenuBefore ? "back " : "").c_str());
             ImGui::SameLine(0.0f, 0.0f);
-            ImGui::TextColored(SickoCol, "SickoMenu");
+            ImGui::TextColored(SickoCol, "YourNewMenuName");
             ImGui::SameLine(0.0f, 0.0f);
             ImGui::TextColored(GoldCol, std::format(" {}", State.SickoVersion).c_str());
             ImGui::SameLine(0.0f, 0.0f);
@@ -56,17 +56,17 @@ namespace AboutTab {
             ImGui::SameLine(0.0f, 0.0f);
             ImGui::Text("!");
 
-            ImGui::TextColored(SickoCol, "SickoMenu");
+            ImGui::TextColored(SickoCol, "YourNewMenuName");
             ImGui::SameLine(0.0f, 0.0f);
             ImGui::Text(" is a powerful utility for Among Us.");
             ImGui::Text("It aims to improve the game experience for all players!");
             ImGui::Text("Use the \"Check for Updates\" button to download the latest release!");
             if (ColoredButton(DevCol, "GitHub")) {
-                OpenLink("https://github.com/g0aty/SickoMenu");
+                OpenLink("https://github.com/g0aty/YourNewMenuName");
             }
             ImGui::SameLine();
             if (ColoredButton(GoldCol, "Check for Updates")) {
-                OpenLink("https://github.com/g0aty/SickoMenu/releases/latest");
+                OpenLink("https://github.com/g0aty/YourNewMenuName/releases/latest");
             }
             ImGui::SameLine();
             if (ColoredButton(State.RgbColor, "Donate")) {
@@ -74,10 +74,10 @@ namespace AboutTab {
             }
             ImGui::Text("Join the Discord server for support, bug reports, and sneak peeks!");
             if (ColoredButton(ContributorCol, "Join our Discord!")) {
-                OpenLink("https://dsc.gg/sickos"); //SickoMenu discord invite
+                OpenLink("https://dsc.gg/sickos"); //YourNewMenuName discord invite
             }
 
-            ImGui::TextColored(SickoCol, "SickoMenu");
+            ImGui::TextColored(SickoCol, "YourNewMenuName");
             ImGui::SameLine(0.0f, 0.0f);
             ImGui::Text(" is a free and open-source software.");
 
@@ -89,7 +89,7 @@ namespace AboutTab {
             }
             else {
                 ImGui::TextColored(ImVec4(1.f, 0.f, 0.f, 1.f), "If you've paid for this menu, demand a refund immediately.");
-                BoldText("Make sure you have downloaded the latest version of SickoMenu from GitHub or our", ImVec4(0.f, 1.f, 0.f, 1.f));
+                BoldText("Make sure you have downloaded the latest version of YourNewMenuName from GitHub or our", ImVec4(0.f, 1.f, 0.f, 1.f));
                 BoldText("official Discord!", ImVec4(0.f, 1.f, 0.f, 1.f));
             }
             //hopefully stop people from reselling a foss menu for actual money
@@ -111,7 +111,7 @@ namespace AboutTab {
         }
 
         if (openCredits) {
-            ImGui::TextColored(SickoCol, "SickoMenu");
+            ImGui::TextColored(SickoCol, "YourNewMenuName");
             ImGui::SameLine(0.0f, 0.0f);
             ImGui::Text(" is a fork of");
             ImGui::SameLine(0.0f, 0.0f);
@@ -215,7 +215,7 @@ namespace AboutTab {
 
             ImGui::Text("Thank you for making ");
             ImGui::SameLine(0.0f, 0.0f);
-            ImGui::TextColored(SickoCol, "SickoMenu");
+            ImGui::TextColored(SickoCol, "YourNewMenuName");
             ImGui::SameLine(0.0f, 0.0f);
             ImGui::Text(" possible!");
         }

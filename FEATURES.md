@@ -1,4 +1,4 @@
-# Features of SickoMenu
+# Features of VMenu
 > [!NOTE]
 > Pro Tip: Use `Ctrl + F` to search for specific features!
 ## 📕 About
@@ -28,7 +28,7 @@
 - **Unlock All Achievements** Unlocks all Achievements
 - **Unlock Cosmetics** Unlocks every cosmetic (hats, visors, etc.) (Default: OFF)
 - **Safe Mode** Disables certain features whenever there is an anticheat (Default: ON)
-- **Allow other SickoMenu users to see you're using SickoMenu** Allows SickoMenu users to see other SickoMenu users
+- **Allow other VMenu users to see you're using VMenu** Allows VMenu users to see other VMenu users
 ### Spoofing
 <img width="400" height="300" alt="Screenshot 2025-09-12 160940" src="https://github.com/user-attachments/assets/db97a985-1527-45f1-ae33-c37551ce974f" />
 
@@ -62,7 +62,7 @@
 - **Show/Hide Console** (Default: HOME)
 - **Show/Hide Radar** (Default: Insert)
 - **Show/Hide Replay** (Default: End)
-- **Panic (Disable SickoMenu)** (Default: PAUSE BREAK)
+- **Panic (Disable VMenu)** (Default: PAUSE BREAK)
 - **Enable/Disable HUD** (Default: None)
 - **Enable/Disable HUD** (Default: None)
 - **Freecam** (Default: None)
@@ -85,7 +85,7 @@
 - **Set Color** Sets your color to the specified color if it's available or you're host/not in safe mode
 - **Snipe Color** Snipes your color whenever it's available (Default: OFF)
 - **Send Chat** Sends a chat message to the game chat
-- **Send to AUM** Sends an AUM chat message that can be seen with AmongUsMenu or SickoMenu
+- **Send to AUM** Sends an AUM chat message that can be seen with AmongUsMenu or VMenu
 - **Spam** Spams chat with your desired message
 - **Spell Check** Highlights misspelled words
 - **Spam by Everyone** *(Only with Safe Mode disabled)* Spams the chat as all players with your desired message (Default: OFF)

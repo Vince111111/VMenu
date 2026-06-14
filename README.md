@@ -2,7 +2,7 @@
    <img src="SickoBanner.png">
   </p>
 
-<h1 align="center">👺 SickoMenu v4.5.2</h1>
+<h1 align="center">👺 VMenu v4.5.2</h1>
 A powerful utility for Among Us designed to enrich your game experience with custom features!
 
 **Intended for educational and experimental use only.**
@@ -13,18 +13,18 @@ Join our very own Discord server for support, bug reports, and sneak peeks!
 ---
 
 ## 📋 Table of Contents
-- [⚠️ Disclaimer](https://github.com/g0aty/SickoMenu#%EF%B8%8F-disclaimer)
-- [🛑 Ethical Use Protocol](https://github.com/g0aty/SickoMenu#-ethical-use-protocol)
-- [⚙️ Features](https://github.com/g0aty/SickoMenu#%EF%B8%8F-features)
-- [📸 Screenshot](https://github.com/g0aty/SickoMenu#-screenshot)
-- [👌 Supported Versions](https://github.com/g0aty/SickoMenu#-supported-versions)
-- [⬇️ Download & Install](https://github.com/g0aty/SickoMenu#%EF%B8%8F-download--install)
-- [🛠️ Troubleshooting](https://github.com/g0aty/SickoMenu#%EF%B8%8F-troubleshooting)
-- [⌨️ Default Hotkeys](https://github.com/g0aty/SickoMenu#%EF%B8%8F-default-hotkeys)
-- [⚒️ Building / Compilation](https://github.com/g0aty/SickoMenu#%EF%B8%8F-building--compilation)
-- [💁 Contributing](https://github.com/g0aty/SickoMenu#-contributing)
-- [✨ Inspiration](https://github.com/g0aty/SickoMenu#-inspiration)
-- [🙏 Special Thanks](https://github.com/g0aty/SickoMenu#-special-thanks)
+- [⚠️ Disclaimer](https://github.com/g0aty/VMenu#%EF%B8%8F-disclaimer)
+- [🛑 Ethical Use Protocol](https://github.com/g0aty/VMenu#-ethical-use-protocol)
+- [⚙️ Features](https://github.com/g0aty/VMenu#%EF%B8%8F-features)
+- [📸 Screenshot](https://github.com/g0aty/VMenu#-screenshot)
+- [👌 Supported Versions](https://github.com/g0aty/VMenu#-supported-versions)
+- [⬇️ Download & Install](https://github.com/g0aty/VMenu#%EF%B8%8F-download--install)
+- [🛠️ Troubleshooting](https://github.com/g0aty/VMenu#%EF%B8%8F-troubleshooting)
+- [⌨️ Default Hotkeys](https://github.com/g0aty/VMenu#%EF%B8%8F-default-hotkeys)
+- [⚒️ Building / Compilation](https://github.com/g0aty/VMenu#%EF%B8%8F-building--compilation)
+- [💁 Contributing](https://github.com/g0aty/VMenu#-contributing)
+- [✨ Inspiration](https://github.com/g0aty/VMenu#-inspiration)
+- [🙏 Special Thanks](https://github.com/g0aty/VMenu#-special-thanks)
 
 ## ⚠️ Disclaimer
 This project is maintained by **g0aty**, with contributions from other developers.  
@@ -52,7 +52,7 @@ This project is designed to comply with their [Modding Policy](https://www.inner
 ---
 
 ## 🛑 Ethical Use Protocol
-**By using SickoMenu, you agree to:**
+**By using VMenu, you agree to:**
 1. **Use exclusively in private lobbies** with consenting players.
 2. **Never exploit features in public matches** or to harass others.
 3. **Respect Innersloth's Terms of Service** and the integrity of the game.
@@ -74,7 +74,7 @@ A huge amount of features!
 - Disable Kill Animation
 - SickoChat (`/sc [message]`)
 
-**Full Feature List:** [FEATURES.md](https://github.com/g0aty/SickoMenu/blob/main/FEATURES.md)  
+**Full Feature List:** [FEATURES.md](https://github.com/g0aty/VMenu/blob/main/FEATURES.md)  
 
 > 🔸 Features marked with **"!"** may impact game balance. Always obtain lobby consent
 
@@ -96,8 +96,8 @@ A huge amount of features!
 
 ## ⬇️ Download & Install
 ### For Windows
-You can find the latest release [here](https://github.com/g0aty/SickoMenu/releases/latest).
-Either inject `SickoMenu.dll` with a reliable injector or put `version.dll` in your Among Us directory (the folder containing `Among Us.exe`). Make sure to use the correct DLL for your Among Us platform!
+You can find the latest release [here](https://github.com/g0aty/VMenu/releases/latest).
+Either inject `VMenu.dll` with a reliable injector or put `version.dll` in your Among Us directory (the folder containing `Among Us.exe`). Make sure to use the correct DLL for your Among Us platform!
 
 **Accessing the Among Us directory for supported platforms:**
 - **🚂 Steam** Right-click **Among Us** in your Library → Click **Manage** → Click **Browse local files**.
@@ -120,7 +120,7 @@ First you will need [protontricks](https://github.com/Matoking/protontricks), yo
 7. In the configuration window, click on **Libraries**
 8. Enter `version` into the **New override for library** input field
 9. Click **Add** and then **Apply**
-10. SickoMenu should now work properly in the game
+10. VMenu should now work properly in the game
 
 ### For macOS (Version Proxy Only)
 
@@ -128,7 +128,7 @@ First you will need [protontricks](https://github.com/Matoking/protontricks), yo
 > This method uses CrossOver. If you have ANY other ways to use this with other software, refer to the contributing section!
 
 > [!TIP]
-> The hotkey to trigger SickoMenu depends on your Mac model. There are 2 possible triggers: Command+Backspace **OR** Function+Backspace.
+> The hotkey to trigger VMenu depends on your Mac model. There are 2 possible triggers: Command+Backspace **OR** Function+Backspace.
 
 **Backspace corresponds to the ⌫ on your keyboard.**
 
@@ -139,7 +139,7 @@ First you will need [protontricks](https://github.com/Matoking/protontricks), yo
 3. Go to `Program Files (x86)/Steam/steamapps/common/Among Us/` and put the `version.dll` into it. Then reopen CrossOver.
 4. Go to the **Configure Wine** panel, go to **Libraries**, open the menu below **New Replacement for:** and search for `version`.
 5. Select it and click **Add**, then **Apply** and **OK**.
-6. Start Among Us and press **Fn+Backspace or Command+Backspace, depending on your model** to show SickoMenu.
+6. Start Among Us and press **Fn+Backspace or Command+Backspace, depending on your model** to show VMenu.
 
 **Method 2:**
 
@@ -151,7 +151,7 @@ First you will need [protontricks](https://github.com/Matoking/protontricks), yo
    - In PlayOnMac’s installation wizard, select **Install components directly** > **Steam**.
    - Follow prompts to install Steam in the virtual drive.
 4. Launch Steam from PlayOnMac, log in, and install Among Us.
-5. Add SickoMenu’s `version.dll`
+5. Add VMenu’s `version.dll`
    - Right-click your virtual drive in PlayOnMac > **Open virtual drive’s directory**.
    - Navigate to:  
      `drive_c/Program Files (x86)/Steam/steamapps/common/Among Us`  
@@ -196,7 +196,7 @@ First you will need [protontricks](https://github.com/Matoking/protontricks), yo
    - Click **Apply** > **OK**.
 9. Launch Steam from Terminal (as in Step 3.3).  
 - Start Among Us from your Steam library.  
-- Use **Command + Backspace or Fn+Backspace** to toggle SickoMenu in-game, depending onn your Mac model.
+- Use **Command + Backspace or Fn+Backspace** to toggle VMenu in-game, depending onn your Mac model.
 
 ### Method 4: Whisky + Apple Game Porting Toolkit (Apple Silicon)
 
@@ -226,7 +226,7 @@ Launch Steam from Whisky:
 Log in to your Steam account.
 Install Among Us normally through Steam.
 Close Steam once the installation finishes.
-4. Add SickoMenu’s version.dll:
+4. Add VMenu’s version.dll:
 In Whisky, select your bottle and click Open Bottle in Finder.
 5. Navigate to:
 ```drive_c/Program Files (x86)/Steam/steamapps/common/Among Us```
@@ -241,7 +241,7 @@ Click Apply and OK.
 7. Launch the game:
 Start Steam from Whisky.
 Launch Among Us from your Steam library.
-Use Fn + Backspace or Command + Backspace (depending on your Mac model) to toggle SickoMenu.
+Use Fn + Backspace or Command + Backspace (depending on your Mac model) to toggle VMenu.
 
 ---
 ### **Note:**
@@ -258,7 +258,7 @@ Use Fn + Backspace or Command + Backspace (depending on your Mac model) to toggl
 **Game crashes on launch**
 - Ensure you are using a supported Among Us version.
 - Verify you downloaded the correct DLL for your platform.
-- Remove other mods that may conflict with SickoMenu.
+- Remove other mods that may conflict with VMenu.
 
 **Menu does not appear**
 - Confirm the DLL was loaded successfully.
@@ -289,14 +289,14 @@ Use Fn + Backspace or Command + Backspace (depending on your Mac model) to toggl
 - Show Replay - END
 - Repair Sabotage - PAGE DOWN (PgDn)
 - NoClip - CTRL
-- Panic / Disable SickoMenu - PAUSE BREAK (Break)
+- Panic / Disable VMenu - PAUSE BREAK (Break)
 
 The Default Hotkeys can be customized in-game through the menu Settings → Keybinds.
 
 ## ⚒️ Building / Compilation
 You can compile two different versions of the menu. Normal or Version Proxy. Steps to compile can be found [here](https://docs.google.com/document/d/1bdXyasr7suassff_or3ywPyItGkjhlTfbBJtvaJ6udQ/edit?usp=sharing).
 
-### Normal (SickoMenu.dll)
+### Normal (VMenu.dll)
 Inject it with any injector you have.
 
 - Debug (With Debug Information and can be attached to process)
@@ -309,7 +309,7 @@ Will automatically be loaded by the Game itself if the dll is in the game direct
 - Release_Version (Optimized with all information stripped)
 
 ## 💁 Contributing
-1. Fork it [here](<https://github.com/g0aty/SickoMenu/fork>)
+1. Fork it [here](<https://github.com/g0aty/VMenu/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)

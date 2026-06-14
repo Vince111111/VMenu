@@ -41,10 +41,10 @@ namespace Menu {
 	// static std::string searchQuery = (std::string)"";
 
 	std::map<std::string, std::vector<std::string>> categories = {
-		{"Settings", {"Show Keybinds", "Allow Activating Keybinds while Chatting", "Always Show Menu on Startup", "Panic (Disable SickoMenu)",
+		{"Settings", {"Show Keybinds", "Allow Activating Keybinds while Chatting", "Always Show Menu on Startup", "Panic (Disable YourNewMenuName)",
 					  "Config Name", "Load Config", "Save Config", "Adjust by DPI", "Menu Scale", "Menu Theme Color", "Gradient Theme", "Match Background with Theme",
 					  "RGB Menu Theme", "Reset Menu Theme", "Opacity", "Show Debug Tab", "Username", "Set as Account Name", "Automatically Set Name", "Custom Code",
-					  "Replace Streamer Mode Lobby Code", "RGB Lobby Code", "Unlock Cosmetics", "Safe Mode", "Allow other SickoMenu users to see you're using SickoMenu",
+					  "Replace Streamer Mode Lobby Code", "RGB Lobby Code", "Unlock Cosmetics", "Safe Mode", "Allow other YourNewMenuName users to see you're using YourNewMenuName",
 					  "Spoof Guest Account", "Use Custom Guest Friend Code", "Spoof Level", "Spoof Platform", "Disable Host Anticheat (+25 Mode)", "FPS"}},
 		{"Game", {"Player Speed Multiplier", "Kill Distance", "No Ability Cooldown", "Multiply Speed", "Modify Kill Distance", "Random Color", "Set Color", "Snipe Color", "Console",
 				  "Reset Appearance", "Kill Everyone", "Protect Everyone", "Disable Venting", "Spam Report", "Kill All Crewmates", "Kill All Impostors", "Kick Everyone From Vents",
@@ -144,8 +144,8 @@ namespace Menu {
 		try {
 			if (!init)
 				Menu::Init();
-			std::string modText = std::format("SickoMenu {}", State.SickoVersion);
-			ImGui::Begin("SickoMenu", &State.ShowMenu, ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoScrollWithMouse);
+			std::string modText = std::format("YourNewMenuName {}", State.SickoVersion);
+			ImGui::Begin("YourNewMenuName", &State.ShowMenu, ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoScrollWithMouse);
 			static ImVec4 titleCol = State.MenuThemeColor;
 			if (State.RgbMenuTheme)
 				titleCol = State.RgbColor;
@@ -162,7 +162,7 @@ namespace Menu {
 			ImGui::SameLine(ImGui::GetWindowWidth() - 19 * State.dpiScale);
 			if (AnimatedButton("-")) State.ShowMenu = false; //minimize button
 			//ImGui::BeginTabBar("AmongUs#TopBar", ImGuiTabBarFlags_NoTabListScrollingButtons);
-			ImGui::BeginChild("###SickoMenu", ImVec2(90 * State.dpiScale, 0), true, ImGuiWindowFlags_NoBackground);
+			ImGui::BeginChild("###YourNewMenuName", ImVec2(90 * State.dpiScale, 0), true, ImGuiWindowFlags_NoBackground);
 			// Search field
 			ImGui::SetNextItemWidth(90 * State.dpiScale); // Adjust the width of the input box
 			if (InputStringWithHint("##Search", "Search...", &State.searchQuery)/* && State.AprilFoolsMode*/) {

@@ -195,7 +195,7 @@ namespace PlayersTab {
                                     tempColor = AmongUsColorToImVec4(Palette__TypeInfo->static_fields->Purple);
                                 else if (State.modUsers.at(pid) == "<#030303>Unknown</color>")
                                     tempColor = AmongUsColorToImVec4(Palette__TypeInfo->static_fields->DisabledGrey);
-                                else if (State.modUsers.at(pid) == "<#ff006c>SickoMenu</color>")
+                                else if (State.modUsers.at(pid) == "<#ff006c>YourNewMenuName</color>")
                                     tempColor = ImVec4(1.f, 0.f, 0.424f, 1.f);
                             }
                         }
@@ -395,7 +395,7 @@ namespace PlayersTab {
                     if (!selectedPlayer.get_PlayerControl()->fields.notRealPlayer && selectedPlayer.get_PlayerData() != NULL) {
                         bool isUsingMod = selectedPlayer.is_LocalPlayer() || State.modUsers.count(selectedPid);
                         ImGui::Text("Is using Modified Client: %s", isUsingMod ? "Yes" : "No");
-                        if (isUsingMod) ImGui::Text("Client Name: %s", selectedPlayer.is_LocalPlayer() ? "SickoMenu" : RemoveHtmlTags(State.modUsers.at(selectedPid)).c_str());
+                        if (isUsingMod) ImGui::Text("Client Name: %s", selectedPlayer.is_LocalPlayer() ? "YourNewMenuName" : RemoveHtmlTags(State.modUsers.at(selectedPid)).c_str());
 
                         ImGui::Text("Player ID: %d", selectedPid);
 

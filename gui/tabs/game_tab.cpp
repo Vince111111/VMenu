@@ -622,7 +622,7 @@ namespace GameTab {
             ImGui::Text("Detect Actions:");
             if (ToggleButton("AUM/KillNetwork Usage", &State.SMAC_CheckAUM)) State.Save();
             ImGui::SameLine();
-            if (ToggleButton("SickoMenu Usage", &State.SMAC_CheckSicko)) State.Save();
+            if (ToggleButton("YourNewMenuName Usage", &State.SMAC_CheckSicko)) State.Save();
             ImGui::SameLine();
             if (ToggleButton("Abnormal Names", &State.SMAC_CheckBadNames)) State.Save();
 

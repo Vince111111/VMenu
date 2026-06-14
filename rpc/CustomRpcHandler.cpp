@@ -10,11 +10,11 @@ void HandleRpc(PlayerControl* player, uint8_t callId, MessageReader* reader) {
 	switch (callId) {
 	case (uint8_t)420:
 	{
-		uint8_t playerId = player->fields.PlayerId; //true SickoMenu detection
+		uint8_t playerId = player->fields.PlayerId; //true YourNewMenuName detection
 		if (State.modUsers.find(playerId) == State.modUsers.end() && MessageReader_get_BytesRemaining(reader, NULL) == 0) {
-			State.modUsers.insert({ playerId, "<#ff006c>SickoMenu</color>" });
-			STREAM_DEBUG("RPC Received for another SickoMenu user from " << ToString((Game::PlayerId)playerId));
-			if (State.SMAC_CheckSicko) SMAC_OnCheatDetected(player, "SickoMenu User");
+			State.modUsers.insert({ playerId, "<#ff006c>YourNewMenuName</color>" });
+			STREAM_DEBUG("RPC Received for another YourNewMenuName user from " << ToString((Game::PlayerId)playerId));
+			if (State.SMAC_CheckSicko) SMAC_OnCheatDetected(player, "YourNewMenuName User");
 		}
 	}
 	break;
