@@ -13,21 +13,21 @@ Join our very own Discord server for support, bug reports, and sneak peeks!
 ---
 
 ## 📋 Table of Contents
-- [⚠️ Disclaimer](https://github.com/g0aty/VMenu#%EF%B8%8F-disclaimer)
-- [🛑 Ethical Use Protocol](https://github.com/g0aty/VMenu#-ethical-use-protocol)
-- [⚙️ Features](https://github.com/g0aty/VMenu#%EF%B8%8F-features)
-- [📸 Screenshot](https://github.com/g0aty/VMenu#-screenshot)
-- [👌 Supported Versions](https://github.com/g0aty/VMenu#-supported-versions)
-- [⬇️ Download & Install](https://github.com/g0aty/VMenu#%EF%B8%8F-download--install)
-- [🛠️ Troubleshooting](https://github.com/g0aty/VMenu#%EF%B8%8F-troubleshooting)
-- [⌨️ Default Hotkeys](https://github.com/g0aty/VMenu#%EF%B8%8F-default-hotkeys)
-- [⚒️ Building / Compilation](https://github.com/g0aty/VMenu#%EF%B8%8F-building--compilation)
-- [💁 Contributing](https://github.com/g0aty/VMenu#-contributing)
-- [✨ Inspiration](https://github.com/g0aty/VMenu#-inspiration)
-- [🙏 Special Thanks](https://github.com/g0aty/VMenu#-special-thanks)
+- [⚠️ Disclaimer](https://github.com/vince111111/VMenu#%EF%B8%8F-disclaimer)
+- [🛑 Ethical Use Protocol](https://github.com/vince111111/VMenu#-ethical-use-protocol)
+- [⚙️ Features](https://github.com/vince111111/VMenu#%EF%B8%8F-features)
+- [📸 Screenshot](https://github.com/vince111111/VMenu#-screenshot)
+- [👌 Supported Versions](https://github.com/vince111111/VMenu#-supported-versions)
+- [⬇️ Download & Install](https://github.com/vince111111/VMenu#%EF%B8%8F-download--install)
+- [🛠️ Troubleshooting](https://github.com/vince111111/VMenu#%EF%B8%8F-troubleshooting)
+- [⌨️ Default Hotkeys](https://github.com/vince111111/VMenu#%EF%B8%8F-default-hotkeys)
+- [⚒️ Building / Compilation](https://github.com/vince111111/VMenu#%EF%B8%8F-building--compilation)
+- [💁 Contributing](https://github.com/vince111111/VMenu#-contributing)
+- [✨ Inspiration](https://github.com/vince111111/VMenu#-inspiration)
+- [🙏 Special Thanks](https://github.com/vince111111/VMenu#-special-thanks)
 
 ## ⚠️ Disclaimer
-This project is maintained by **g0aty**, with contributions from other developers.  
+This project is maintained by **vince111111**, with contributions from other developers.  
 It is intended **solely for educational and non-commercial research purposes**, such as exploring game mechanics and studying anti-cheat systems.
 
 This project is **not affiliated with, endorsed, or supported by Innersloth LLC** in any capacity.
@@ -36,7 +36,7 @@ By downloading, installing, or using this software, you acknowledge and agree th
 
 - You are solely responsible for how you use it.
 - You will not use it to violate Innersloth’s [Terms of Service](https://www.innersloth.com/terms-of-use-for-the-games/) or disrupt public gameplay.
-- The developers, including **g0aty** and all contributors, **assume no responsibility or liability** for:
+- The developers, including **vince111111** and all contributors, **assume no responsibility or liability** for:
   - Any direct or indirect consequences of misuse,
   - Violations of third-party rules or terms,
   - Game bans, data loss, or damage caused by use of this utility.
@@ -74,7 +74,7 @@ A huge amount of features!
 - Disable Kill Animation
 - SickoChat (`/sc [message]`)
 
-**Full Feature List:** [FEATURES.md](https://github.com/g0aty/VMenu/blob/main/FEATURES.md)  
+**Full Feature List:** [FEATURES.md](https://github.com/vince111111/VMenu/blob/main/FEATURES.md)  
 
 > 🔸 Features marked with **"!"** may impact game balance. Always obtain lobby consent
 
@@ -96,7 +96,7 @@ A huge amount of features!
 
 ## ⬇️ Download & Install
 ### For Windows
-You can find the latest release [here](https://github.com/g0aty/VMenu/releases/latest).
+You can find the latest release [here](https://github.com/vince111111/VMenu/releases/latest).
 Either inject `VMenu.dll` with a reliable injector or put `version.dll` in your Among Us directory (the folder containing `Among Us.exe`). Make sure to use the correct DLL for your Among Us platform!
 
 **Accessing the Among Us directory for supported platforms:**
@@ -309,7 +309,7 @@ Will automatically be loaded by the Game itself if the dll is in the game direct
 - Release_Version (Optimized with all information stripped)
 
 ## 💁 Contributing
-1. Fork it [here](<https://github.com/g0aty/VMenu/fork>)
+1. Fork it [here](<https://github.com/vince111111/VMenu/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)

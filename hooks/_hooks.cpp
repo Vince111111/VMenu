@@ -14,8 +14,8 @@ bool HookFunction(PVOID* ppPointer, PVOID pDetour, const char* functionName) {
 		STREAM_ERROR("Failed to hook " << functionName << ", error " << error);
 		if (error == ERROR_INVALID_HANDLE) {
 			MessageBox(NULL,
-				L"YourNewMenuName failed to hook a function with an invalid handle!\nThis may be caused by a version of Among Us not supported by YourNewMenuName.\n\nPlease don\'t post \"Please update\" stuff in the Issues section of the GitHub repository or on our bug reports forum on Discord. That\'s not an issue. It always gets updated, just be patient. Day of launch updates are a privilege, not an expectation.",
-				L"YourNewMenuName", MB_ICONERROR);
+				L"VMenu failed to hook a function with an invalid handle!\nThis may be caused by a version of Among Us not supported by VMenu.\n\nPlease don\'t post \"Please update\" stuff in the Issues section of the GitHub repository or on our bug reports forum on Discord. That\'s not an issue. It always gets updated, just be patient. Day of launch updates are a privilege, not an expectation.",
+				L"VMenu", MB_ICONERROR);
 		}
 		return false;
 	}

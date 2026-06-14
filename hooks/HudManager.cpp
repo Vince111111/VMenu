@@ -211,11 +211,11 @@ void dVersionShower_Start(VersionShower* __this, MethodInfo* method) {
     }
     std::string disableHostAnticheatText = State.CurrentScene == "FindAGame" && State.DisableHostAnticheat ? " • <#f00>+25 Mode is ON</color>" : "";
     std::string watermarkOffset = State.CurrentScene == "MMOnline" ? "<#0000>00000</color>" : "";
-    std::string sickoText = "<#ff006c>YourNewMenuName</color>";
-    std::string goatText = "<#ef0143>g0aty</color>";
+    std::string sickoText = "<#ff006c>VMenu</color>";
+    std::string goatText = "<#ef0143>vince111111</color>";
     /*if (!State.HideWatermark) {
-        sickoText = GetGradientUsername("YourNewMenuName", ImVec4(1.f, 0.f, 0.424f, 1.f), ImVec4(0.502f, 0.075f, 0.256f, 1.f));
-        goatText = GetGradientUsername("g0aty", ImVec4(0.937f, 0.004f, 0.263f, 1.f), ImVec4(0.529f, 0.008f, 0.157f, 1.f));
+        sickoText = GetGradientUsername("VMenu", ImVec4(1.f, 0.f, 0.424f, 1.f), ImVec4(0.502f, 0.075f, 0.256f, 1.f));
+        goatText = GetGradientUsername("vince111111", ImVec4(0.937f, 0.004f, 0.263f, 1.f), ImVec4(0.529f, 0.008f, 0.157f, 1.f));
     }*/
     std::string watermarkText = /*State.AprilFoolsMode ? std::format(" • {} <#fb0>{}</color> <#ca08ff>[{} Mode]</color> by {}", sickoText,
         State.SickoVersion, State.DiddyPartyMode ? "Diddy Party" : (IsChatCensored() || IsStreamerMode() ? "F***son" : "Fuckson"), goatText) :*/
@@ -292,8 +292,8 @@ void dPingTracker_Update(PingTracker* __this, MethodInfo* method) {
             if (!State.HideWatermark) {
                 static uint8_t gradientOffset = 0;
                 static int gradientDelay = 0;
-                sickoText = GetGradientUsername("YourNewMenuName", ImVec4(1.f, 0.f, 0.424f, 1.f), ImVec4(0.502f, 0.075f, 0.256f, 1.f), gradientOffset);
-                goatText = GetGradientUsername("g0aty", ImVec4(0.937f, 0.004f, 0.263f, 1.f), ImVec4(0.529f, 0.008f, 0.157f, 1.f), gradientOffset);
+                sickoText = GetGradientUsername("VMenu", ImVec4(1.f, 0.f, 0.424f, 1.f), ImVec4(0.502f, 0.075f, 0.256f, 1.f), gradientOffset);
+                goatText = GetGradientUsername("vince111111", ImVec4(0.937f, 0.004f, 0.263f, 1.f), ImVec4(0.529f, 0.008f, 0.157f, 1.f), gradientOffset);
                 if (gradientDelay <= 0) {
                     gradientOffset++;
                     gradientDelay = (int)(0.1 * fps);

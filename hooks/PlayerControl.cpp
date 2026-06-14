@@ -90,7 +90,7 @@ void dPlayerControl_FixedUpdate(PlayerControl* __this, MethodInfo* method) {
                     break;
                 }
                 if (State.rpcCooldown <= 0) {
-                    //YourNewMenuName users can detect this rpc
+                    //VMenu users can detect this rpc
                     MessageWriter* writer = InnerNetClient_StartRpcImmediately((InnerNetClient*)(*Game::pAmongUsClient), __this->fields._.NetId, rpcCall, (SendOption__Enum)1, -1, NULL);
                     MessageWriter_EndMessage(writer, NULL);
                     State.rpcCooldown = int(0.5 * GetFps());
@@ -235,7 +235,7 @@ void dPlayerControl_FixedUpdate(PlayerControl* __this, MethodInfo* method) {
                         break;
                     }
                 }
-                std::string localPlayerMod = State.modUsers.find((*Game::pLocalPlayer)->fields.PlayerId) == State.modUsers.end() ? "<#ff006c>YourNewMenuName</color>" : State.modUsers.at((*Game::pLocalPlayer)->fields.PlayerId);
+                std::string localPlayerMod = State.modUsers.find((*Game::pLocalPlayer)->fields.PlayerId) == State.modUsers.end() ? "<#ff006c>VMenu</color>" : State.modUsers.at((*Game::pLocalPlayer)->fields.PlayerId);
                 if (State.ModDetection) {
                     switch (State.BroadcastedMod) {
                     case 1:
@@ -1497,7 +1497,7 @@ void dNetworkedPlayerInfo_Deserialize(NetworkedPlayerInfo* __this, MessageReader
             }
             case 2:
             {
-                String* newName = convert_to_string(name + " has been kicked by <#ff006c>YourNewMenuName</color> <#9ef>Anticheat</color>! Reason: Blacklisted<size=0>");
+                String* newName = convert_to_string(name + " has been kicked by <#ff006c>VMenu</color> <#9ef>Anticheat</color>! Reason: Blacklisted<size=0>");
                 if (IsHost()) {
                     PlayerControl_CmdCheckName(GetPlayerControlById(id), newName, NULL);
                     InnerNetClient_KickPlayer((InnerNetClient*)(*Game::pAmongUsClient), GetPlayerControlById(id)->fields._.OwnerId, false, NULL);
@@ -1506,7 +1506,7 @@ void dNetworkedPlayerInfo_Deserialize(NetworkedPlayerInfo* __this, MessageReader
             }
             case 3:
             {
-                String* newName = convert_to_string(name + " has been banned by <#ff006c>YourNewMenuName</color> <#9ef>Anticheat</color>! Reason: Blacklisted<size=0>");
+                String* newName = convert_to_string(name + " has been banned by <#ff006c>VMenu</color> <#9ef>Anticheat</color>! Reason: Blacklisted<size=0>");
                 if (IsHost()) {
                     PlayerControl_CmdCheckName(GetPlayerControlById(id), newName, NULL);
                     InnerNetClient_KickPlayer((InnerNetClient*)(*Game::pAmongUsClient), GetPlayerControlById(id)->fields._.OwnerId, true, NULL);
