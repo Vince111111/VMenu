@@ -1,4 +1,4 @@
-﻿#include "pch-il2cpp.h"
+#include "pch-il2cpp.h"
 #include "utility.h"
 #include "state.hpp"
 #include "game.h"
