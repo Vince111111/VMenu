@@ -97,6 +97,7 @@
     <ClCompile Include="hooks\NoShadowBehaviour.cpp" />
     <ClCompile Include="hooks\PlainDoor.cpp" />
     <ClCompile Include="hooks\PlayerPhysics.cpp" />
+    <ClCompile Include="hooks\BlockVenting.cpp" />
     <ClCompile Include="hooks\PlayerStorageManager.cpp" />
     <ClCompile Include="hooks\PolusShipStatus.cpp" />
     <ClCompile Include="hooks\RoleManager.cpp" />
